@@ -1,0 +1,11 @@
+digraph G {
+"map" -> "apriltag"[label="Broadcaster: /static_transform_publisher_1508227115356230025\nAverage rate: 10.177 Hz\nMost recent transform: 1508227542.315 ( -0.041 sec old)\nBuffer length: 4.913 sec\n"];
+"link0" -> "link1"[label="Broadcaster: /static_transform_publisher_1508227316727747214\nAverage rate: 10.177 Hz\nMost recent transform: 1508227542.314 ( -0.041 sec old)\nBuffer length: 4.913 sec\n"];
+"map" -> "link0"[label="Broadcaster: /static_transform_publisher_1508227296164303742\nAverage rate: 10.155 Hz\nMost recent transform: 1508227542.297 ( -0.024 sec old)\nBuffer length: 4.825 sec\n"];
+"link1" -> "link2"[label="Broadcaster: /static_transform_publisher_1508227329349023100\nAverage rate: 10.179 Hz\nMost recent transform: 1508227542.367 ( -0.093 sec old)\nBuffer length: 4.912 sec\n"];
+"link2" -> "link3"[label="Broadcaster: /static_transform_publisher_1508227341633152903\nAverage rate: 10.156 Hz\nMost recent transform: 1508227542.297 ( -0.024 sec old)\nBuffer length: 4.825 sec\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1508227542.273"[ shape=plaintext ] ;
+ }->"map";
+}
